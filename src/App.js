@@ -12,7 +12,7 @@ function App() {
           <Link to="/">홈</Link>
         </li>
         <li>
-          <Link to="/about">소개</Link>
+          <Link to="/about" state={{username: "hello"}}>소개</Link>
         </li>
       </ul>
       <hr />
