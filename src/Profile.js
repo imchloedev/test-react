@@ -15,6 +15,7 @@ const profileData = {
 const Profile = () => {
   const { username } = useParams();
   const profile = profileData[username];
+  // profileData 의 key에 접근해서 value 가져오기 
 
   if (!profile) {
     return <div>존재하지 않는 유저입니다.</div>;
