@@ -14,6 +14,7 @@ const profileData = {
 
 const Profile = () => {
   const { username } = useParams();
+  console.log(username)
   const profile = profileData[username];
   // profileData 의 key에 접근해서 value 가져오기 
 
